@@ -15,7 +15,7 @@ The Front Desk Application is a web-based application designed to manage package
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/front-desk-app.git
+git clone https://github.com/jms-diaz/front-desk-app.git
 ```
 
 2. Open the solution file (FrontDeskApp.sln) in Visual Studio.
