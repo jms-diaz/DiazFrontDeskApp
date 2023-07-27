@@ -15,7 +15,7 @@ The Front Desk Application is a web-based application designed to manage package
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/jms-diaz/front-desk-app.git
+git clone https://github.com/jms-diaz/DiazFrontDeskApp.git
 ```
 
 2. Open the solution file (FrontDeskApp.sln) in Visual Studio.
@@ -47,8 +47,6 @@ The application follows the standard ASP.NET MVC structure:
 - `Interfaces`: Contains the interfaces that define contracts for various services in the application.
 - `Repositories`: Contains the repository classes that implement the interfaces for data access and encapsulate database operations.
 - `Data`: Contains the data context class and database migrations.
-- `Scripts`: Contains JavaScript files used in the views.
-- `Content`: Contains CSS files and other static resources.
 
 ## Usage
 
