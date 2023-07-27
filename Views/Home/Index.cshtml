@@ -1,0 +1,26 @@
+﻿@model DiazFrontDeskApp.ViewModel.UserPackageViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Package Area Status</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Package Area Type</th>
+        <th>Maximum Capacity</th>
+        <th>Current Capacity</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var pArea in Model.PackageAreas)
+    {
+        <tr>
+            <td>@pArea.PackageAreaType</td>
+            <td>@pArea.MaxCapacity</td>
+            <td>@pArea.CurrentCapacity</td>
+        </tr>
+    }
+    </tbody>
+</table>
